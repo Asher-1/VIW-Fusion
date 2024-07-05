@@ -268,7 +268,7 @@ void readParameters(std::string config_file)
     MIN_PARALLAX = MIN_PARALLAX / FOCAL_LENGTH;
 
 
-    VINS_RESULT_PATH = OUTPUT_FOLDER + "/vio.csv";
+    VINS_RESULT_PATH = OUTPUT_FOLDER + "/viwo.csv";
     GROUNDTRUTH_PATH = OUTPUT_FOLDER + "/groundtruth.csv";
     std::cout << "result path " << VINS_RESULT_PATH << std::endl;
     std::cout << "groundtruth path " << GROUNDTRUTH_PATH << std::endl;
